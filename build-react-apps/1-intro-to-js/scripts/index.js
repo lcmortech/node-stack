@@ -72,3 +72,24 @@ setTimeout(()=>{
 
 //Control Statements/Loops
 
+for(let i = 0; i < 8; i++) {
+    if(i === 1) {
+        continue
+    }
+    console.log('i: ' + i)
+    if(i === 4){
+        break
+    }
+}
+
+let fruitLoops = ['Apple', 'Grapes', 'Watermelon']
+fruitLoops.forEach((fruit, i) =>{
+    console.log(i + ': ' + fruit)
+})
+
+let fruitWhileLoop = ['Apple', 'Grapes', 'Watermelon']
+let i = 0
+
+while(i < fruitWhileLoop.length) {
+    console.log(`${i}: ${fruits[i]}`)
+}
