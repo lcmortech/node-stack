@@ -1,4 +1,4 @@
-let a  = 5
-let b = '6'
+let a: number  = 5;
+let b: string = '6';
 
-console.log(a + b)
+console.log(a + b);
