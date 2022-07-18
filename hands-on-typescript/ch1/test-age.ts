@@ -7,3 +7,9 @@ function canDrive(user){
         console.log('No driving for you!')
     }
 }
+
+const tom ={
+    name: 'tom',
+    age: 18
+}
+canDrive(tom)

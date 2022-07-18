@@ -7,3 +7,8 @@ function canDrive(user) {
         console.log('No driving for you!');
     }
 }
+var tom = {
+    name: 'tom',
+    age: 18
+};
+canDrive(tom);
