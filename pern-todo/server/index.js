@@ -10,3 +10,4 @@ app.use(express.json())
 app.listen(5000, ()=>{
     console.log('Server successfully running on port 5000')
 })
+
