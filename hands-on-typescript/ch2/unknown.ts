@@ -6,3 +6,8 @@ if (val instanceof Array) {
 val.push(33);
 }
 console.log(val);
+
+let obj {name: string} & {age: number} = {
+    name: 'tom',
+    age: 25
+}
